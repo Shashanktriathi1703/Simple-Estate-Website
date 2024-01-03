@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background:url(images/villa.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav{
+    margin-left:3.5rem;
+    margin-right: 3.5rem;
+    /* margin-top: 1.2rem; */
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background-color:transparent;
+    border-bottom:0.1rem solid rgb(255, 255, 255);
+}
+.navleft{
+    padding-left: 1.2rem;
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+}
+.h3{
+    color: rgb(223, 181, 249);
+}
+.h3span{
+    color:rgb(178, 63, 250);
+    text-shadow: 0px 0.8px 1.4px rgba(0, 0, 0, 0.5);
+}
+.navright{
+    padding-right: 1.2rem;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.2rem;
+}
+.navright a{
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}
+
+.top-second{
+    position: absolute;
+    top:12%;
+    left: 12%;
+    width: 50vw;
+    min-height: 50vh;
+    text-align: left;
+    color: azure;
+    display: flex; /* Assuming the container is a flex container */
+    flex-direction: column;
+}
+.top-second h1,p,.btn{
+    margin-bottom: 20px;
+}
+.top-second h1{
+    font-size: 80px;
+    bottom: 20px;
+}
+.top-second p{
+    width: 30vw;
+    top: 10px;
+}
+.top-second .btn{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 20px;
+    border: none;
+    background: rgb(178, 63, 250);
+    color: #fff;
+    font-weight: 700;
+}
+/* .top-third{
+    position: relative;
+    margin-top:-2%;
+    margin-left: 10%;
+    height: 10vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(176, 54, 251);
+} */
+.main{
+    /* position: relative; */
+    background: #e4f5f9;
+    /* flex-wrap: wrap; */
+    /* flex-direction:row;
+    top: 1.2rem;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; */
+    /* padding: 0vw 10vw; */
+}
+.main .simple_heading{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2vw 10vw;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px; /* Adjust the gap as per your design */
+    justify-content: center;
+}
+.card {
+    width: 400px; /* Set the width of each card */
+    height: 400px; /* Set the height of each card */
+    /*background-color: #f2f2f2; Add a background color or any other styling */
+    /*border: 1px solid #ccc; Add border as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    /*padding: 20px; Add padding as needed */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add box shadow for depth */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 2, 0.2);
+}
+.card-details{
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+    top: -50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 88%;
+    left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.card-detail-left .span{
+    color: rgb(178, 63, 250);
+}
+.card-detail-left h3{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+.card-detail-right button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 15px;
+    border: none;
+    background: rgb(178, 63, 250);
+    color: #fff;
+    font-weight: 700;
+}
+
+.second-main{
+    background: #f2e4f9;
+    display: flex;
+}
+.second-main-item{
+    margin-top: 15%;
+    width: 600px; /* Set the width of each card */
+    height: 400px;
+    background-color: rgb(178, 63, 250);
+    border-radius: 0% 15% 15% 0%;
+    position: relative;
+}
+.second-main-left{
+    position:absolute;
+    margin-top: -7rem;
+    width: 500px; /* Set the width of each card */
+    height: 400px; /* Set the height of each card */
+    /*background-color: #f2f2f2; Add a background color or any other styling */
+    /*border: 1px solid #ccc; Add border as needed */
+    border-radius: 40px; /* Add border radius for rounded corners */
+    /*padding: 20px; Add padding as needed */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add box shadow for depth */
+    margin-left: 6.2rem;
+    box-sizing: border-box;
+    box-shadow: -40px 40px 0px #f2e4f9;
+}
+.second-main-left img{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(1, 0, 2, 0.2);
+}
+/* .second-main-left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/rect.png');
+    z-index: 1;
+    opacity: 0.3;
+  } */
+.second-main-right{
+    margin-top: 7rem;
+    width: 30%; /* Set the width of each card */
+    height: 5%; /* Set the height of each card */
+    /*background-color: #f2f2f2; Add a background color or any other styling */
+    /*border: 1px solid #ccc; Add border as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    /*padding: 20px; Add padding as needed */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add box shadow for depth */
+    margin-left: 5rem;
+    box-sizing: border-box;
+}
+.second-main-right h1{
+    padding-top: 80px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.second-main-right button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 15px;
+    border: none;
+    background: rgb(178, 63, 250);
+    color: #fff;
+    font-weight: 700;
+}
+
+.third-main{
+    background: #f2e4f9;
+    display: flex;
+}
+.third-main-item{
+    margin-top: 5%;
+    width: 754px; /* Set the width of each card */
+    height: 400px;
+    background-color: rgb(178, 63, 250);
+    border-radius: 10% 0% 0% 10%;
+    position: absolute;
+}
+.third-main-right{
+    position: relative;
+    margin-top: 7rem;
+    width: 500px; /* Set the width of each card */
+    height: 400px; /* Set the height of each card */
+    /*background-color: #f2f2f2; Add a background color or any other styling */
+    /*border: 1px solid #ccc; Add border as needed */
+    border-radius: 90px; /* Add border radius for rounded corners */
+    /*padding: 20px; Add padding as needed */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add box shadow for depth */
+    margin-left: 6.2rem;
+    box-sizing: border-box;
+    box-shadow: -40px 40px 0px #f2e4f9;
+}
+.third-main-right img{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 30px 30px 0px #f2e4f9;;
+    margin-left: 7rem;
+    margin-top: -3rem;
+}
+
+.third-main-left{
+    margin-top: 7rem;
+    width: 30%; 
+    height: 5%; 
+    border-radius: 10px; 
+    margin-left: 11rem;
+    box-sizing: border-box;
+}
+.third-main-left h1{
+    padding-top: 80px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.third-main-left button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 15px;
+    border: none;
+    background: rgb(178, 63, 250);
+    color: #fff;
+    font-weight: 700;
+}
+
+.fourth-main{
+    background: rgb(242, 228, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 7%;
+    width: 100%;
+}
+.fourth-main-items{
+    background:rgb(178, 63, 250);
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.h1-item{
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.p-item{
+    font-size: 13px;
+    color: #fff;
+}
+
+.fourth-main-items-gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.gmail{
+   width: 400px; 
+   height: 40px;
+   border-radius: 20px;
+   background: none;
+   background-color: rgba(251, 251, 251, 0.447);
+   box-shadow: 0 4.3px 2.4px rgba(1, 0, 2, 0.2);
+   border-style:none;
+   border: 2px rgba(170, 0, 255, 0.374);
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px;
+   text-align: center;
+   color: #fff;
+}
+
+.btn-gmail{
+    height: 2.6rem;
+    width: 8rem;
+    border-radius: 20px;
+    border: none;
+    background: rgb(255, 254, 255);
+    color: rgb(171, 13, 250);
+    box-shadow: 0 3px 3.2px rgba(1, 0, 2, 0.5);
+    font-weight: 700;
+}
+.last{
+    display: flex;
+    background: rgb(242, 228, 249);
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    gap: 8%;
+}
+.one{
+    width: 25%;
+    padding: 20px;
+    padding-left: 3%;
+}
+.one .h3{
+    padding-bottom: 25px;
+    font-size: 32px;
+}
+.one .social-media{
+    padding-bottom: 27px;
+    display: flex;
+    gap: 15px;
+}
+.one .social-media a{
+    font-size: 32px;
+}
+.one p{
+    width: 100%;
+    font-size:15px;
+}
+.two{
+    margin-left: 40px;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.two h3{
+    font-size: 18px;
+    margin-bottom: 8%;
+}
+.three{
+    margin-left: 40px;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.three h3{
+    font-size: 18px;
+    margin-bottom: 8%;
+}
+.fourth{
+    margin-left: 40px;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fourth h3{
+    font-size: 18px;
+    margin-bottom: 8%;
+}
