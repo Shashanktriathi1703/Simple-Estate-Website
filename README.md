@@ -17,6 +17,9 @@ To get started with the website, simply open the `index.html` file in your web b
 - Property listings: The website includes a page for property listings, where users can view details about each property and see images.
 - Contact form: Users can easily get in touch with the estate agent by filling out a contact form on the website.
 
+## Live Demo
+- https://shashanktriathi1703.github.io/Simple-Estate-Website/
+
 ## Demo
 - Front Page
 ![one](https://github.com/Shashanktriathi1703/Simple-Estate-Website/assets/105815482/517cf63b-776d-4822-a48f-0abf1f48f7f4)
